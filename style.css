@@ -1,0 +1,22 @@
+ @import url("style/cabeçalho.css");
+ @import url("style/sobre-mim.css");
+ @import url("style/trabalhos.css");
+ @import url("style/habilidades.css");
+ 
+ 
+  :root{
+    --cor-1: #BFBFBF;
+    --cor-2: #4C5958;
+    --cor-3: #8AA6A3;
+    --cor-4: #10403B;
+    --cor-5: #127369;
+    --fonte-principal: "poppins"
+  }
+
+  body{
+    background-color: #BFBFBF;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+  }
+
