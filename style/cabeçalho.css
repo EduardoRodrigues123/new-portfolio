@@ -24,7 +24,7 @@
   background-color: var(--cor-2);
   padding: 1em;
   border-radius:  0 0 10px 0;
-  width: 35%;
+  width: auto;
 }
 
 .lista-menu-link, .lista-menu-titulo{
@@ -55,5 +55,41 @@
 .cabecalho-titulo{
   color: var(--cor-1);
   font-size: 20px;
+}
+
+.opcoes{
+  display: none;
+}
+
+
+
+@media screen  and (min-width: 1024px){
+  .lista-menu{
+    width: auto;
+  }
+
+  .opcoes{
+   display: flex;
+   margin-right: auto;
+  }
+
+  .opcoes-item{
+    text-transform: uppercase;
+    padding: 0px 0.5em;
+    color: var(--cor-1);
+  }
+
+  .opcoes-link{
+    color: white;
+    text-decoration: none;
+  }
+
+  .cabecalho-menu-hamburguer{
+    display: none;
+  }
+
+  .opcoes-link:hover{
+    text-decoration: underline;
+  }
 }
 

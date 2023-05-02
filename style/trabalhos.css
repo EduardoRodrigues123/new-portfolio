@@ -40,7 +40,6 @@
 
 .trabalho-titulo-projetos{
     text-align: center;
-    
     padding: 10px;
     font-size: 18px;
     color: var(--cor-1);
@@ -48,10 +47,80 @@
 
 .container-titulo{
     background-color: var(--cor-5);
-    width: 85%;
+    width: 30%;
     margin: 1em auto;
     border-radius: 7px;
     font-weight: bolder;
+}
+
+@media screen and (min-width: 717px){
+    .container-titulo{
+        width: 30%;
+    }
+
+    .container-trabalho{
+        display: flex;
+        flex-wrap: wrap;
+        width: 700px;
+        margin: 0px auto;
+        
+    }
+
+    .trabalhos2{
+        background-color: var(--cor-3);
+        width: 340px;
+        height: 300px;
+        border-radius: 7px;
+        box-shadow: 1px 1px 6px 0px black;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .container-titulo{
+        width: 30%;
+    }
+
+    .container-trabalho{
+        display: flex;
+        flex-wrap: wrap;
+        width: 750px;
+        margin: 0px auto;
+        
+    }
+
+    .trabalhos2{
+        background-color: var(--cor-3);
+        width: 340px;
+        height: 300px;
+        border-radius: 7px;
+        box-shadow: 1px 1px 6px 0px black;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .container-titulo{
+        width: 30%;
+    }
+
+    .container-trabalho{
+        display: flex;
+        flex-wrap: wrap;
+        width: 940px;
+        margin: 0px auto;
+        
+    }
+
+    .trabalhos2{
+        background-color: var(--cor-3);
+        width: 340px;
+        height: 300px;
+        border-radius: 7px;
+        box-shadow: 1px 1px 6px 0px black;
+    }
+
+    
+
+    
 }
 
 
